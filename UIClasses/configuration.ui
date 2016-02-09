@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Configuration</class>
+ <widget class="QWidget" name="Configuration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>配置中心</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>65</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>人员管理</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>班次管理</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>职务管理</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>锚点管理</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>网络配置</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>441</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignHCenter|Qt::AlignTop</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
